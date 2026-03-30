@@ -14,7 +14,7 @@ public class LoginPage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
+	// Elements
 	@FindBy(id="input-email")
 	private WebElement emailField;
 	
